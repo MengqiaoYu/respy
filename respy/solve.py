@@ -3,6 +3,7 @@ import functools
 
 import numpy as np
 
+from robupy.auxiliary import get_worst_case_probs
 from respy.config import COVARIATES_DOT_PRODUCT_DTYPE
 from respy.config import INADMISSIBILITY_PENALTY
 from respy.interpolate import interpolate
